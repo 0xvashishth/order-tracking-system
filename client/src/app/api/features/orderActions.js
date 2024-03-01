@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { createAsyncThunk } from '@reduxjs/toolkit'
 
-const backendURL = 'http://localhost:8082/api/v1/order/'
+const backendURL = 'https://order-tracking-system-server.vercel.app/api/v1/order/'
 
 export const createOrder = createAsyncThunk(
   '/create101',
